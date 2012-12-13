@@ -1,0 +1,1 @@
+You can find this Webpage here: http://namics.github.com/ResponsiveDebugBookmarklet

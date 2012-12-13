@@ -1,0 +1,124 @@
+@media screen {
+       #namics-responsive-debug .namics-responsive-debug-elem {
+            background-color: rgba(0, 0, 0, .7);
+            color: #fff;
+            display: block;
+            font-weight: bold;
+            padding: .5em 1em;
+            position: absolute;
+            text-shadow: 1px 1px 3px #000;
+            z-index: 99999999;
+       }
+       #namics-responsive-debug .nrd-topbar {
+            position: fixed;
+            text-align: center;
+            top: 0;
+            left: 0;
+            width: 100%;
+       }
+       #namics-responsive-debug .nrd-toolbutton {
+            position: fixed;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+       }
+}
+
+@media screen and (min-width: 480px) {}
+@media screen and (min-width: 600px) {}
+@media screen and (min-width: 768px) {}
+@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1200px) {}
+
+/**
+ * MEDIA QUERIES DEBUGGING
+ */
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min-device-pixel-ratio: 1.5) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "iPhone 4 and high pixel ratio devices";
+    }
+}
+
+@media screen and (min-width: 1800px) and (orientation: landscape) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "min-width: 1800px (landscape)";
+    }
+}
+
+@media screen and (max-width: 1800px) and (orientation: landscape) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 1800px (landscape)";
+    }
+}
+
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 1200px (landscape)";
+    }
+}
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 1200px (portrait)";
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 1024px (landscape)";
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation: portrait) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 1024px (portrait)";
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 768px (landscape)";
+    }
+}
+
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 768px (portrait)";
+    }
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 600px (landscape)";
+    }
+}
+
+@media screen and (max-width: 600px) and (orientation: portrait) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 600px (portrait)";
+    }
+}
+
+@media screen and (max-width: 480px) and (orientation: landscape) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 480px (landscape)";
+    }
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 480px (portrait)";
+    }
+}
+
+@media screen and (max-width: 320px) and (orientation: landscape) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 320px (landscape)";
+    }
+}
+
+@media screen and (max-width: 320px) and (orientation: portrait) {
+    #namics-responsive-debug .nrd-topbar:after {
+        content: "max-width: 320px (portrait)";
+    }
+}
