@@ -1,13 +1,30 @@
 @media screen {
+       #namics-responsive-debug * {
+           font-family: Arial, Verdana, sans-serif;
+           font-size: 14px;
+           color: #fff;
+       }
        #namics-responsive-debug .namics-responsive-debug-elem {
+            background-color: #333;
             background-color: rgba(0, 0, 0, .7);
-            color: #fff;
             display: block;
             font-weight: bold;
             padding: .5em 1em;
             position: absolute;
             text-shadow: 1px 1px 3px #000;
             z-index: 99999999;
+       }
+       #namics-responsive-debug .namics-responsive-debug-elem.nrd-img-bigger {
+           background-color: #a33;
+           background-color: rgba(100, 0, 0, .7);
+       }
+       #namics-responsive-debug .namics-responsive-debug-elem.nrd-img-smaller {
+           background-color: #aa3;
+           background-color: rgba(100, 100, 0, .7);
+       }
+       #namics-responsive-debug .namics-responsive-debug-elem .orig {
+           font-size: 10px;
+           font-weight: normal;
        }
        #namics-responsive-debug .nrd-topbar {
             position: fixed;
