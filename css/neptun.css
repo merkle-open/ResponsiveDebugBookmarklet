@@ -1,0 +1,20 @@
+.foreground1, a, .modMetaNav ul li a:hover {
+	color: #0094c1;
+}
+.foreground2 {
+	color: #f9b300;
+}
+.foreground3, a:visited, a:hover, a:active {
+	color: #00539e;
+}
+
+.background1 {
+	background-color: #0094c1;
+}
+.background1 .active a {
+	color: #0094c1 !important;
+}
+.background1 a:hover {
+	color: #0094c1 !important;
+	background-color: #0094c1 !important;
+}
