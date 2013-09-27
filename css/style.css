@@ -5,8 +5,9 @@
            color: #fff;
        }
        #namics-responsive-debug .namics-responsive-debug-elem {
-            background-color: #333;
-            background-color: rgba(0, 0, 0, .7);
+            background-color: #009036;
+            background-color: rgba(0, 144, 54, .7);
+            color #fff;
             display: block;
             font-weight: bold;
             padding: .5em 1em;
@@ -15,18 +16,22 @@
             z-index: 99999999;
        }
        #namics-responsive-debug .namics-responsive-debug-elem.nrd-img-bigger {
-           background-color: #a33;
-           background-color: rgba(100, 0, 0, .7);
+           background-color: #dc0a0a;
+           background-color: rgba(220, 10, 10, .8);
+           color: #fff;
        }
        #namics-responsive-debug .namics-responsive-debug-elem.nrd-img-smaller {
-           background-color: #aa3;
-           background-color: rgba(100, 100, 0, .7);
+           background-color: #e1a800;
+           background-color: rgba(225, 168, 0, .8);
+           color: #fff;
        }
        #namics-responsive-debug .namics-responsive-debug-elem .orig {
            font-size: 10px;
            font-weight: normal;
        }
        #namics-responsive-debug .nrd-topbar {
+            background-color: #772164;
+            background-color: rgba(119, 33, 100, .7);
             position: fixed;
             text-align: center;
             top: 0;
