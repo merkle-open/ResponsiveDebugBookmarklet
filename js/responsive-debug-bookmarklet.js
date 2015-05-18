@@ -1,6 +1,6 @@
 /*
 
-<a href="javascript:(function(){if(window.namicsResponsiveDebugBookmarklet!==undefined){namicsResponsiveDebugBookmarklet();}else{document.body.appendChild(document.createElement('script')).src='http://namics.github.com/ResponsiveDebugBookmarklet/js/responsive-debug-bookmarklet.js';}})();">Namics Responsive Debug Bookmarklet</a>
+<a href="javascript:(function(){if(window.namicsResponsiveDebugBookmarklet!==undefined){namicsResponsiveDebugBookmarklet();}else{document.body.appendChild(document.createElement('script')).src='https://namics.github.io/ResponsiveDebugBookmarklet/js/responsive-debug-bookmarklet.js';}})();">Namics Responsive Debug Bookmarklet</a>
 
 References
 ------------
@@ -13,7 +13,7 @@ https://github.com/jarednova/jquery-total-storage
 Breakpoint CSS:
 http://bueltge.de/test/media-query-debugger.php
 */
-var baseurl = 'https://namics.github.com/ResponsiveDebugBookmarklet'
+var baseurl = 'https://namics.github.io/ResponsiveDebugBookmarklet'
 var scripturl = baseurl + '/js/responsive-debug-bookmarklet.js';
 var styleurl = baseurl + '/css/style.css';
 
