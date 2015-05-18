@@ -13,7 +13,7 @@ https://github.com/jarednova/jquery-total-storage
 Breakpoint CSS:
 http://bueltge.de/test/media-query-debugger.php
 */
-var baseurl = 'http://namics.github.com/ResponsiveDebugBookmarklet'
+var baseurl = 'https://namics.github.com/ResponsiveDebugBookmarklet'
 var scripturl = baseurl + '/js/responsive-debug-bookmarklet.js';
 var styleurl = baseurl + '/css/style.css';
 
@@ -21,7 +21,7 @@ var styleurl = baseurl + '/css/style.css';
 (function(){
     var nrdJQuery = null;
     var script = document.createElement("script");
-    script.src = "http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js";
+    script.src = "https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js";
     script.onload = script.onreadystatechange = function(){
         if (nrdJQuery === null && (!this.readyState || this.readyState == "loaded" || this.readyState == "complete")) {
             nrdJQuery = jQuery.noConflict(true);
